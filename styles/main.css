@@ -1,3 +1,7 @@
+body {
+    background-color: #404040;
+}
+
 li {
     float: left;
 }
@@ -21,5 +25,5 @@ p {
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
   font-size: 2em;
-  color: blue
+  color: whitesmoke
 }
