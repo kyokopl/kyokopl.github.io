@@ -24,7 +24,17 @@ ul {
 p { 
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
-  color: whitesmoke
+  color: whitesmoke;
 }
 
-h4 { font-style: bold}
+div {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+h1, h2, h3, h4 { 
+    font-style: bold;
+    color: lightslategray;
+}
