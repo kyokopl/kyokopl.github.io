@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title class=header> Kyoko's Blog</title>
+    <title class="header"> Kyoko's Blog</title>
     <meta charset="UTF-8">
     <link href="your-stylesheet-link-here.css" rel="stylesheet" type="text/css">
   </head>
@@ -11,6 +11,27 @@
     text-align: center;
     padding: 20px;
     }
+    /* The navbar container */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
 </style>
   <body>
     <h1>Nau mai, haere mai</h1>
@@ -22,12 +43,12 @@
     
     <p>
     <!-- anchor linking to external file -->
-  <a href="https://kyokopl.github.io/blog/c1-reflection-blog.html">
+  <a class="topnav" href="https://kyokopl.github.io/blog/c1-reflection-blog.html">
   Cultural Reflections
   </a> </p>
   <p>
       <!-- anchor linking to external file -->
-      <a href="https://kyokopl.github.io/blog/c1-time-and-habits-blog.html">
+      <a class="topnav" href="https://kyokopl.github.io/blog/c1-time-and-habits-blog.html">
         Time and Habits
         </a> </p>
   
