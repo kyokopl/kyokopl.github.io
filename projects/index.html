@@ -1,0 +1,39 @@
+<!DOCTYPE html5>
+<html>
+<head>
+<title>Te Noke</title>
+
+<style>
+html {
+    text-align: center;
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+}
+
+#board div {
+    background-color: #6acfe0;
+    border: 1px solid white;
+    box-sizing: border-box;
+    float: left;
+    width: 24px;
+    height: 24px;
+}
+
+#board {
+    width: calc(26 * 24px);
+    margin: auto;
+}
+
+#board .snake {
+    background-color: rgb(245, 148, 83);
+}
+
+</style>
+
+</head>
+<body onload="inGame()">
+    <h1>Te Noke</h1>
+    <div id="board"></div>
+
+    <script src="snake.js"></script>
+</body>
+</html>
