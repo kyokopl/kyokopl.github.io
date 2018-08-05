@@ -170,6 +170,14 @@ li.dropdown {
 
 /* Image specifications */
 
+.blog-image {
+    padding: 10px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
 img {
     max-width: 100%;
     height: auto;
